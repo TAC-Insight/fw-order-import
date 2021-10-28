@@ -2,8 +2,9 @@
 
 ![Utility Screenshot](exe.png)
 
+### Steps to import
 1) Download the [fw-order-import.exe](https://github.com/TAC-Insight/fw-order-import/raw/main/dist/fw-order-import.exe)
-- You may need to tell Windows to allow/trust the file before it will download or run.
+-- You may need to tell Windows to allow/trust the file before it will download or run.
 2) Run it
 3) Paste in your API key
 4) Paste in the path to your CSV
@@ -18,7 +19,7 @@ Each row in the template is a product line item for an order (FW Order Product).
 
 Also remember that **fields containing commas must be wrapped in quotes**. Ex: "ACME, INC". The quotes will be stripped away in the import process. They tell the CSV parser that "ACME, INC" should be treated as the value for a single column.
 
-There are required fields:
+### There are required fields:
 - ExternalOrderID (This is the key/lookup field. It's not visible in the Fast-Weigh UI. Typically it is the Order Number from the system you are migrating away from. A new ExternalOrderID will create a new Fast-Weigh Order. If a duplicate is found the API assumes you want to update the existing Order with additional products or the values within the existing Order header info.)
 - RegionName
 - CustomerID
