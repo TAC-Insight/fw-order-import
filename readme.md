@@ -9,7 +9,9 @@
 7) Rerun (the importer will also perform updates on any changed data)
 8) Celebrate all the time you've saved!
 
-There is a [template with proper formatting](https://raw.githubusercontent.com/TAC-Insight/fw-order-import/main/OrdersTemplate.csv) in this repo. Use it for reference.
+There is a [csv template with proper formatting](https://raw.githubusercontent.com/TAC-Insight/fw-order-import/main/OrdersTemplate.csv) in this repo. Use it for reference.
+
+Also remember that **fields containing commas must be wrapped in quotes**. Ex: "ACME, INC". The quotes will be stripped away in the import process. They tell the CSV parser that "ACME, INC" should be treated as the value for a single column.
 
 There are required fields:
 - ExternalOrderID
