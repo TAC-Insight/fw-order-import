@@ -1,6 +1,7 @@
 # FW Order Import Utility
 
 1) Download the [fw-order-import.exe](https://github.com/TAC-Insight/fw-order-import/raw/main/dist/fw-order-import.exe)
+1a) You may need to tell Windows to allow/trust the file before it will download or run.
 2) Run it
 3) Paste in your API key
 4) Paste in the path to your CSV
