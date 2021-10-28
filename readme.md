@@ -1,6 +1,6 @@
 # FW Order Import Utility
 
-1) Download the fw-order-import.exe
+1) Download the [fw-order-import.exe](https://github.com/TAC-Insight/fw-order-import/raw/main/dist/fw-order-import.exe)
 2) Run it
 3) Paste in your API key
 4) Paste in the path to your CSV
@@ -9,7 +9,7 @@
 7) Rerun (the importer will also perform updates on any changed data)
 8) Celebrate all the time you've saved!
 
-There is a template with proper formatting in this repo. Use it for reference.
+There is a [template with proper formatting](https://raw.githubusercontent.com/TAC-Insight/fw-order-import/main/OrdersTemplate.csv) in this repo. Use it for reference.
 
 There are required fields:
 - ExternalOrderID
