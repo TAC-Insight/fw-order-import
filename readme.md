@@ -1,5 +1,7 @@
 # FW Order Import Utility
 
+![Utility Screenshot](exe.png)
+
 1) Download the [fw-order-import.exe](https://github.com/TAC-Insight/fw-order-import/raw/main/dist/fw-order-import.exe)
 - You may need to tell Windows to allow/trust the file before it will download or run.
 2) Run it
