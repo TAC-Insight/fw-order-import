@@ -71,16 +71,13 @@ async function runConvert() {
 
     console.log("==== API RESPONSE ====");
 
-    let { body } = await got.post(
-      "https://fwapi-staging.azurewebsites.net/v2/orders",
-      {
-        headers: {
-          "content-type": "application/json",
-          "x-api-key": input.apiKey,
-        },
-        json: ordersToPost,
-      }
-    );
+    let { body } = await got.post("https://api.fast-weigh.com/v2/orders", {
+      headers: {
+        "content-type": "application/json",
+        "x-api-key": input.apiKey,
+      },
+      json: ordersToPost,
+    });
 
     body = JSON.parse(body);
 
